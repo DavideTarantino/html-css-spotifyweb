@@ -61,4 +61,16 @@
     background-color: gray;
     border-radius: 50%;
 }
+
+.sidebar p:hover{
+    color: white;
+}
+
+.sidebar li:hover{
+    color: white;
+}
+
+.sidebar span:hover{
+    color: white;
+}
 /*------FINE SIDEBAR------*/
