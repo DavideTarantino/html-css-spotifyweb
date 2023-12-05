@@ -7,7 +7,6 @@
 
 body{
     display: flex;
-    width: 80vw;
 }
 
 /*------SIDEBAR------*/
@@ -97,6 +96,28 @@ body{
 }
 /*------FINE SIDEBAR------*/
 
+/*------BOTTONE UPGRADE------*/
+#upgrade{
+    width: 80vw;
+    height: 8vh;
+    background-color: #080B12;
+}
+
+#upgrade p{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#upgrade-button{
+    padding-inline: 7%;
+    padding-block: 1%;
+    border: 1px solid white;
+    background-color: #080B12;
+    color: white;
+    border-radius: 20px;
+    margin-top: 17px;
+}
+/*------FINE BOTTONE UPGRADE------*/
 
 /*------RESPONSIVE ZONE MD------*/
 @media screen and (max-width : 878px) {
@@ -119,7 +140,7 @@ body{
 /*------RESPONSIVE ZONE XS------*/
 @media screen and (max-width : 552px) {
     .sidebar{
-        width: 12%;
+        width: 10vw;
     }
     
     .sidebar .up-down{
@@ -127,6 +148,10 @@ body{
     }
     #xs-sidebar{
         z-index: 1;
+    }
+
+    #upgrade{
+        width: 90vw;
     }
 }
 /*------FINE RESPONSIVE ZONE XS------*/
