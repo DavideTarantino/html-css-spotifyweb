@@ -11,7 +11,7 @@
 <body>
     <!------INIZIO SIDEBAR------>
     <header class="sidebar">
-        <div>   
+        <div class="up-down">   
             <img id="logo" src="./assets/img/logo.svg" alt="logo">
             <p><img src="./assets/img/home.svg" alt="home"> <span>Home</span></p>
             <p><img src="./assets/img/search.svg" alt="cerca"> <span>Cerca</span></p>
@@ -27,13 +27,26 @@
                 <li>Nome Playlist</li>
             </ul>
         </div>
-        <div> 
+            <!------SIDEBAR RIMPICCIOLITA PER FORMATO XS------>
+            <div id="xs-sidebar">
+                <div id="up-xs">    
+                    <img src="./assets/img/logo-small.svg" alt="logo">
+                    <p><img src="./assets/img/home.svg" alt="home"></p>
+                    <p><img src="./assets/img/search.svg" alt="cerca"></p>
+                    <p><img src="./assets/img/libreria.svg" alt="libreria"></p>
+                </div>
+                <div id="bottom-xs">
+                    <p><img src="./assets/img/download.svg" alt="download"></p>
+                    <p><img id="profilo" src="./assets/img/profile.svg" alt="prfile"> <strong></strong></p>
+                </div>
+            </div>
+            <!------FINE SIDEBAR RIMPICCIOLITA PER FORMATO XS------>
+        <div class="up-down"> 
             <p><img src="./assets/img/download.svg" alt="download"> Installa app</p>
             <hr>
             <p><img id="profilo" src="./assets/img/profile.svg" alt="prfile"> <strong>John Doe</strong></p>
         </div>
     </header>
     <!------FINE SIDEBAR------>
-
 </body>
 </html>

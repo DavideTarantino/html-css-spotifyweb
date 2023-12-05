@@ -5,10 +5,15 @@
     font-family: sans-serif;
 }
 
+body{
+    display: flex;
+    width: 80vw;
+}
+
 /*------SIDEBAR------*/
 .sidebar{
     background-color: black;
-    width: 25vh;
+    width: 20vw;
     height: 100vh;
     color: gray;
     padding-left: 2%;
@@ -16,6 +21,23 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+#xs-sidebar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+    justify-content: space-between;
+    position: absolute;
+}
+
+#up-xs{
+    line-height: 250%;
+}
+
+#bottom-xs{
+    line-height: 250%;
 }
 
 .sidebar #logo{
@@ -74,3 +96,37 @@
     color: white;
 }
 /*------FINE SIDEBAR------*/
+
+
+/*------RESPONSIVE ZONE MD------*/
+@media screen and (max-width : 878px) {
+   .sidebar{
+        width: 30%;
+   } 
+}
+/*------FINE RESPONSIVE ZONE MD------*/
+
+
+/*------RESPONSIVE ZONE S------*/
+@media screen and (max-width : 639px) {
+    .sidebar{
+        width: 40%;
+   } 
+}
+/*------FINE RESPONSIVE ZONE S------*/
+
+
+/*------RESPONSIVE ZONE XS------*/
+@media screen and (max-width : 552px) {
+    .sidebar{
+        width: 12%;
+    }
+    
+    .sidebar .up-down{
+        z-index: -1;
+    }
+    #xs-sidebar{
+        z-index: 1;
+    }
+}
+/*------FINE RESPONSIVE ZONE XS------*/
