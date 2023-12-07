@@ -214,11 +214,26 @@ main{
 }
 /*------FINE SUGGERIMENTI------*/
 
+/*------ARTISTI SUGGERITI------*/
+.container-main #artisti-suggeriti p{
+    color: gray;
+    padding-bottom: 2%;
+}
 
+.container-main #artisti-suggeriti h1{
+    padding-bottom: 1%;
+}
 
+.flex-suggerimenti-artisti{
+    width: calc(33% / 2 - 1%);
+}
 
+.flex-suggerimenti-artisti img{
+    border-radius: 50%;
+}
+/*------FINE ARTISTI SUGGERTI-----*/
 
-
+/*------FINE SEZIONE DISCHI------*/
 
 
 
@@ -243,7 +258,11 @@ main{
 
    .flex-suggerimenti{
     width: calc(50% / 2 - 1%);
-}
+    }
+
+    .flex-suggerimenti-artisti{
+        width: calc(50% / 2 - 1%);
+    }
 }
 /*------FINE RESPONSIVE ZONE MD------*/
 
@@ -264,7 +283,11 @@ main{
 
    .flex-suggerimenti{
     width: calc(100% / 2 - 1%);
-}
+    }
+
+    .flex-suggerimenti-artisti{
+        width: calc(100% / 2 - 1%);
+    }
 }
 
 /*------FINE RESPONSIVE ZONE S------*/
