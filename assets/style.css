@@ -162,7 +162,7 @@ main{
 .container-main{
     width: 97%;
     margin: 0 auto;
-    height: 76vh;
+    height: 48vh;
 }
 
 .container-main h1{
@@ -176,7 +176,7 @@ main{
     text-align: center;
 }
 
-.container-main p{
+.flex-singles p{
     color: gray;
     text-align: center;
     font-size: 70%;
@@ -199,6 +199,29 @@ main{
 /*------FINE RECENTLY PLAYED------*/
 
 
+/*------SUGGERIMENTI------*/
+.container-main #creato-per-john p{
+    color: gray;
+    padding-bottom: 2%;
+}
+
+.container-main #creato-per-john h1{
+    padding-bottom: 1%;
+}
+
+.flex-suggerimenti{
+    width: calc(33% / 2 - 1%);
+}
+/*------FINE SUGGERIMENTI------*/
+
+
+
+
+
+
+
+
+
 /*------RESPONSIVE ZONE MD------*/
 @media screen and (max-width : 878px) {
    .sidebar{
@@ -217,6 +240,10 @@ main{
    .flex-singles{
     width: calc(100% / 4 - 1%);
    }
+
+   .flex-suggerimenti{
+    width: calc(50% / 2 - 1%);
+}
 }
 /*------FINE RESPONSIVE ZONE MD------*/
 
@@ -234,6 +261,10 @@ main{
    #upgrade-button{
     margin-top: 3.3%;
    }
+
+   .flex-suggerimenti{
+    width: calc(100% / 2 - 1%);
+}
 }
 
 /*------FINE RESPONSIVE ZONE S------*/
